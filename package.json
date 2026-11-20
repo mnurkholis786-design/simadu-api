@@ -1,0 +1,19 @@
+{
+  "name": "simadu-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --env-file=.env tests/test-simadu.cjs",
+    "start": "node --env-file=.env server.cjs",
+    "docs": "node scripts/generate-openapi.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "5.3.0",
+    "swagger-ui-express": "5.0.1"
+  }
+}
